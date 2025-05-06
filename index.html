@@ -2,7 +2,6 @@
   <head>
     <meta chartset="UTF-8">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="scriptquestao1.js">
   </head>
   <body>
     <table>
@@ -16,33 +15,52 @@
       </thead>
          <tr>
             <th scope="row">João</th>
-            <td>7.5</td>
-            <td>8.0</td>
-            <td>9.0</td>
-            <td>8.16</td>
+            <td id="nota1">7.5</td>
+            <td id="nota2">8.0</td>
+            <td id="nota3">9.0</td>
+            <td id="media1"></td>
           </tr>  
           <tr>
             <th scope="row">Maria</th>
-            <td>9.0</td>
-            <td>9.5</td>
-            <td>8.5</td>
-            <td>9.0</td>
+            <td id="nota4">9.0</td>
+            <td id="nota5">9.5</td>
+            <td id="nota6">8.5</td>
+            <td id="media2">9.0</td>
           </tr>
           <tr>
             <th scope="row">Ana</th>
-            <td>8.0</td>
-            <td>7.5</td>
-            <td>8.0</td>
-            <td>7.83</td>
+            <td id="nota7">8.0</td>
+            <td id="nota8">7.5</td>
+            <td id="nota9">8.0</td>
+            <td  id="media3">7.83</td>
           </tr>
           <tr>
               <th scope="row">Média total</th>
               <td>-</td>
               <td>-</td>
               <td>-</td>
-              <td>8.33</td>
+              <td>mediatotal</td>
            </tr>
     </table>
+    <script>
+      let nota1 = parseFloat(document.getElementById("nota1"));
+      let nota2 = parseFloat(document.getElementById("nota2"));
+      let nota3 = parseFloat(document.getElementById("nota3"));
+      let nota4 = parseFloat(document.getElementById("nota4"));
+      let nota5 = parseFloat(document.getElementById("nota5"));
+      let nota6 = parseFloat(document.getElementById("nota6"));
+      let nota7 = parseFloat(document.getElementById("nota7"));
+      let nota8 = parseFloat(document.getElementById("nota8"));
+      let nota9 = parseFloat(document.getElementById("nota9"));
+      media1 = nota1+nota2+nota3 / 3;
+      media2 = nota4+nota5+nota6 / 3;
+      media3 = nota7+nota8+nota9 / 3;
+      mediatotal = media1+media2+media3 / 3;
+      
+
+      
+
+    </script>
   </body>
 
 
