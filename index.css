@@ -1,6 +1,9 @@
 .border {
+  font-family: 
   border: solid red 2px;
-  
   background-color: black;
   border-radius: 5px;
+  margin: 0 auto;
+  weight: 200px;
+  width: 200px;
 }
