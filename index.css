@@ -2,7 +2,7 @@
   border: solid red 2px;
   background-color: black;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 20 auto;
   weight: 400px;
   width: 400px;
 }
@@ -10,7 +10,7 @@
   border: solid #e31b1b 2px;
   background-color: #8c1919;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 20 auto;
   weight: 400px;
   width: 400px;
   font-family: Arial, Sans-serif;
@@ -23,7 +23,7 @@
   border: solid #1e592e 2px;
   background-color: #3ac961;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 20 auto;
   weight: 400px;
   width: 400px;
   font-family: Arial, Sans-serif;
@@ -57,6 +57,7 @@ table {
   border: solid black 2px;
   color: white;
   width: 50%;
+  margin: center;
   border-collapse: collapse;
   text-align: center;
 
