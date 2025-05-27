@@ -52,8 +52,8 @@ a {
   font-height: Bold;
   text-align: center;
   
-  
-
-
-
+}
+table {
+  border: solid black 2px;
+  margin: 0 auto;
 }
