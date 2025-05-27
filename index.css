@@ -55,7 +55,6 @@ a {
 }
 table {
   border: solid black 2px;
-  margin: 0 auto;
   color: white;
   width: 50%;
   border-collapse: collapse;
