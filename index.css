@@ -57,7 +57,7 @@ table {
   border: solid black 2px;
   color: white;
   width: 50%;
-  margin: center;
+  margin: 0 auto;
   border-collapse: collapse;
   text-align: center;
 
@@ -67,7 +67,7 @@ nav {
   background-color: black;
   border-radius: 5px;
   margin: 30 auto;
-  weight: 700px;
-  width: 700px;
+  weight: 1200px;
+  width: 1200px;
 
 }
