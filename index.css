@@ -71,3 +71,6 @@ nav {
   width: 1200px;
 
 }
+tr {
+  flex-direction: column;
+}
