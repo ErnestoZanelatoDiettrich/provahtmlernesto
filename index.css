@@ -1,7 +1,4 @@
-.border {
-  border: solid red 2px;
-  background-color: black;
-  border-radius: 5px;
+.image {
   margin: 20 auto;
   weight: 400px;
   width: 400px;
