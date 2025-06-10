@@ -9,8 +9,13 @@
   border-radius: 5px;
   margin: 20 px;
   weight: 400px;
-  width: 400px;
-  padding: 400px;
+  width: 200px;
+  padding: 200px;
+  background-clip: padding-box;
+  border-image-source: url(Gran_Turismo_4_capa.png);
+  border-image-slice: 40;
+  border-image-repeat: round;
+  border-image-outset: 10px;
  
   
 }
