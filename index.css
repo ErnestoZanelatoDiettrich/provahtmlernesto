@@ -8,11 +8,12 @@
 }
 .coluna1 {
   border: solid black 2px;
-  background-color: linear-gradient(to left, lightblack, lightblue);
+  background: linear-gradient(to left, lightgreen, lightblue);
   border-radius: 5px;
   margin: 20 px;
   weight: 400px;
   width: 400px;
+  padding: 400px;
  
   
 }
